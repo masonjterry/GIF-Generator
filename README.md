@@ -1,0 +1,2 @@
+# GIF-Generator
+GIF Generator
