@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lalezar', cursive;
+}
+
+.wrapper {
+width: auto;
+margin: 0 auto;
+}
+
+button {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+#button {
+  margin: 10px;
+}
