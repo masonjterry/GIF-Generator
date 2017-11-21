@@ -47,8 +47,6 @@ $(document).ready(function() {
 
         let ratingP = $("<p>").text("Rating: " + rating);
 
-        newGifDiv.append(ratingP);
-
         let imageAnimate = response.data[i].images.original.url;
 
         let imageStill = response.data[i].images.original_still.url;
@@ -56,6 +54,8 @@ $(document).ready(function() {
         let image = $("<img src=\"" + imageStill + "\"data-still=\"" + imageStill + "\" data-animate=\"" + imageAnimate + "\" data-state=\"still\">");
 
         newGifDiv.append(image);
+
+        newGifDiv.append(ratingP);
 
         $("#gifDiv").prepend(newGifDiv);
 
