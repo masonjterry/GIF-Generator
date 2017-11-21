@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  let gifArr = ["dogs", "cats", "michael scott", "dwight shrute", "ron swanson", "andy dwyer"];
+  let gifArr = ["michael scott", "dwight shrute", "creed bratton", "stanley hudson", "jim halpert"];
 
   function createButton() {
     $("#buttonsDiv").empty();
